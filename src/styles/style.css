@@ -170,38 +170,38 @@ main .arrows>a:last-child {
     margin-right: 30px;
 }
 
-/**FOOTER**/
+/**FOOTER .wrapper**/
 footer {
     height: 315px;
     box-shadow: inset 0 1px 0 #e1e0e0;
     background-color: #f8f8f8;
 }
 
-footer .logo {
+footer .wrapper .logo {
     margin-top: 40px;
     margin-bottom: 32px;
 }
 
-footer .copyrights {
+footer .wrapper .copyrights {
     color: #a6a6a6;
     margin-bottom: 38px;
 }
 
-footer .copyrights a {
+footer .wrapper .copyrights a {
     color: #a6a6a6;
     font-family: lato-bold, sans-serif;
 }
 
-footer .socials {
+footer .wrapper .socials {
     width: 230px;
 }
 
-footer .socials .social-wrapper {
+footer .wrapper .socials .social-wrapper {
     position: relative;
 
 }
 
-footer .socials .social-wrapper img {
+footer .wrapper .socials .social-wrapper img {
     position: relative;
     left: 0;
     top: 0;
@@ -210,7 +210,7 @@ footer .socials .social-wrapper img {
     z-index: 10;
 }
 
-footer .socials .social-wrapper img:last-child {
+footer .wrapper .socials .social-wrapper img:last-child {
     z-index: 20;
     left: -30px;
     top: -13px;
