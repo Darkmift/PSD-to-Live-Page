@@ -94,6 +94,11 @@ header ul li.active {
     box-shadow: inset 0 -6px 0 #58c93a;
 }
 
+/* hamburger */
+.menu-btn {
+    display: none;
+}
+
 /* LAYOUT  */
 
 main {
@@ -270,6 +275,21 @@ footer .socials .social-wrapper img:last-child {
 /* mobile breakpoint */
 @media (max-width: 856px) {
 
+    header .main-nav {
+        display: none;
+    }
+
+    header .menu-btn {
+        display: block;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid #c2c1c1;
+        color: #c2c1c1;
+        padding: 6px 12px;
+        border-radius: 3px;
+        font-size: 1.25rem;
+    }
+
 
     main {
         border: none;
@@ -289,4 +309,6 @@ footer .socials .social-wrapper img:last-child {
     main article img {
         max-width: 90%;
     }
+
+
 }
