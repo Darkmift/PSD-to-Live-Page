@@ -97,7 +97,7 @@ header ul li.active {
 /* LAYOUT  */
 
 main {
-    width: 980px;
+    max-width: 980px;
     border: 1px solid #e1e0e0;
     border-bottom: 0;
     margin: auto;
@@ -109,6 +109,10 @@ main article:first-child {
 
 main article {
     margin-bottom: 80px;
+}
+
+main article img {
+    object-fit: contain;
 }
 
 main article div {
@@ -249,4 +253,40 @@ footer .socials .social-wrapper img:last-child {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+/* small breakpoint */
+@media (max-width: 992px) {
+
+    main article:first-child {
+        margin-top: 30px;
+    }
+
+    main article {
+        margin: 0 40px 40px 20px;
+    }
+}
+
+/* mobile breakpoint */
+@media (max-width: 856px) {
+
+
+    main {
+        border: none;
+        max-width: 806px;
+        margin: 25px;
+    }
+
+    /* main article {
+        margin: 0 10px 10px 40px;
+    } */
+    main article {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    main article img {
+        max-width: 90%;
+    }
 }
