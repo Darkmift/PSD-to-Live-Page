@@ -14,17 +14,19 @@
     <!-- mobile menu bg screen -->
     <div class="main-screen" onclick="toggleMenu()"></div>
 
-    <header class="flex space-around align-center">
-        <div class="logo">
-            Blogin<span>.</span>
+    <header>
+        <div class="header-container flex space-between align-center">
+            <div class="logo">
+                Blogin<span>.</span>
+            </div>
+            <ul class="main-nav flex clean-list">
+                <li class="flex align-center justify-content-center active">Journal</li>
+                <li class="flex align-center justify-content-center">About</li>
+                <li class="flex align-center justify-content-center">Work</li>
+                <li class="flex align-center justify-content-center">Contact</li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
         </div>
-        <ul class="main-nav flex clean-list">
-            <li class="flex align-center justify-content-center active">Journal</li>
-            <li class="flex align-center justify-content-center">About</li>
-            <li class="flex align-center justify-content-center">Work</li>
-            <li class="flex align-center justify-content-center">Contact</li>
-        </ul>
-        <button class="menu-btn" onclick="toggleMenu()">☰</button>
     </header>
 
     <main>

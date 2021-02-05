@@ -64,9 +64,15 @@ h2 {
 
 header {
     height: 130px;
+    width: 100%;
     box-shadow: inset 0 -6px 0 #1e1e1e;
     background-color: #292929;
     color: #ffffff;
+}
+
+header .header-container {
+    max-width: 980px;
+    margin: auto;
 }
 
 .logo {
@@ -114,6 +120,7 @@ main article:first-child {
 
 main article {
     margin-bottom: 80px;
+
 }
 
 main article img {
@@ -267,6 +274,11 @@ footer .wrapper .socials .social-wrapper img:last-child {
         margin-top: 30px;
     }
 
+    .header-container {
+        width: 90%;
+        margin: 0 5% 0 5%;
+    }
+
     main article {
         margin: 0 40px 40px 20px;
     }
@@ -311,6 +323,15 @@ footer .wrapper .socials .social-wrapper img:last-child {
         transition: transform .8s, box-shadow .8s;
     }
 
+    header {
+        height: 100px;
+    }
+
+    header .header-container {
+        height: 100px;
+        justify-content: center;
+    }
+
     header ul li {
         width: 61vw;
         height: 10vh;
@@ -327,6 +348,7 @@ footer .wrapper .socials .social-wrapper img:last-child {
         padding: 6px 12px;
         border-radius: 3px;
         font-size: 1.25rem;
+        margin-right: 4%;
     }
 
 
@@ -341,12 +363,18 @@ footer .wrapper .socials .social-wrapper img:last-child {
     } */
     main article {
         flex-direction: column;
-        margin: 0;
         margin-bottom: 20px;
+        padding-bottom: 15px;
+        box-shadow: 2px 8px 13px 0px #949393;
     }
 
     main article img {
         max-width: 90%;
+        margin: 1% 5%;
+    }
+
+    main article a img {
+        display: none;
     }
 
     footer .wrapper .copyrights {
