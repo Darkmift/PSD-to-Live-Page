@@ -310,5 +310,9 @@ footer .wrapper .socials .social-wrapper img:last-child {
         max-width: 90%;
     }
 
-
+    footer .wrapper .copyrights {
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 20px 15px;
+    }
 }
