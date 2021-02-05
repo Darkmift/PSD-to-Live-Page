@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <!-- mobile menu bg screen -->
+    <div class="main-screen" onclick="toggleMenu()"></div>
+
     <header class="flex space-around align-center">
         <div class="logo">
             Blogin<span>.</span>
@@ -105,5 +108,9 @@
         </div>
     </footer>
 </body>
+
+<script>
+    const toggleMenu = () => document.querySelector('body').classList.toggle('menu-open');
+</script>
 
 </html>
