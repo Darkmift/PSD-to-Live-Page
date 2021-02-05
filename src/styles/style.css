@@ -118,9 +118,8 @@ main article:first-child {
     margin-top: 80px;
 }
 
-main article {
+main article:not(:last-child) {
     margin-bottom: 80px;
-
 }
 
 main article img {
@@ -154,27 +153,32 @@ main article div a.active img {
 
 /**MAIN PREV NEXT**/
 
-main .arrows {
-    border-top: 1px solid #e1e0e0;
+.arrows-container {
+    max-width: 920px;
     height: 75px;
+    margin: auto;
+}
+
+.arrows {
+    border-top: 1px solid #e1e0e0;
 }
 
 main div>a>span {
     margin: 0 9px;
 }
 
-main .arrows a {
+.arrows a {
     color: #818181;
     font-size: 1.125rem;
     font-family: lato-bold, sans-serif
 }
 
-main .arrows>a:first-child {
-    margin-left: 30px;
+.arrows-container>a:first-child {
+    margin-left: 5%;
 }
 
-main .arrows>a:last-child {
-    margin-right: 30px;
+.arrows-container>a:last-child {
+    margin-right: 5%;
 }
 
 /**FOOTER .wrapper**/
