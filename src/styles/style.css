@@ -208,25 +208,32 @@ footer .wrapper .socials {
     width: 230px;
 }
 
-footer .wrapper .socials .social-wrapper {
-    position: relative;
-
+footer .wrapper .socials img {
+    padding: 16px;
+    background-color: #948a8a;
 }
 
-footer .wrapper .socials .social-wrapper img {
-    position: relative;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
+footer .wrapper .socials img:first-child {
+    padding: 16px 20px;
 }
 
-footer .wrapper .socials .social-wrapper img:last-child {
-    z-index: 20;
-    left: -30px;
-    top: -13px;
+footer .wrapper .socials img:nth-child(1):hover {
+    background-color: #516fad;
 }
+
+footer .wrapper .socials img:nth-child(2):hover {
+    background-color: #1da0f2;
+}
+
+footer .wrapper .socials img:nth-child(3):hover {
+    background-color: #2962ff;
+}
+
+footer .wrapper .socials img:nth-child(4):hover {
+    background-color: #EA4C89;
+}
+
+
 
 /* HELPERS */
 
