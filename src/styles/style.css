@@ -150,13 +150,7 @@ main article div a:hover::after {
 
 main article div a img {
     display: none;
-
 }
-
-/* main article div a:hover img {
-    display: block;
-    margin-left: 10px;
-} */
 
 /**MAIN PREV NEXT**/
 
