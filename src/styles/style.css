@@ -174,7 +174,12 @@ main article div a img {
 .arrows a {
     color: #818181;
     font-size: 1.125rem;
-    font-family: lato-bold, sans-serif
+    font-family: lato-bold, sans-serif;
+}
+
+.arrows a:hover {
+    color: #585555;
+    font-size: 1.2rem;
 }
 
 .arrows-container>a:first-child {
