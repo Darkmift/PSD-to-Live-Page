@@ -44,38 +44,38 @@
     <main class="container">
         <article class="flex">
             <img src="./src/images/1.png" alt="picture of rails">
-            <div class="flex columns space-between flex-start">
-                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+            <div class="flex columns space-between flex-start a1">
+                <h2>A1 Duis aute irure dolor in henderit in voluptate.</h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
                     doconsequat,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <a href="#"> Continue Reading </a>
+                <a href="#" onclick="openModal(event,'a1')">Continue Reading</a>
             </div>
         </article>
         <article class="flex">
             <img src="./src/images/2.png" alt="picture of field">
-            <div class="flex columns space-between flex-start">
-                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+            <div class="flex columns space-between flex-start a2">
+                <h2>A2 Duis aute irure dolor in henderit in voluptate.</h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
                     doconsequat,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <a href="#"> Continue Reading </a>
+                <a href="#" onclick="openModal(event,'a2')">Continue Reading</a>
             </div>
         </article>
         <article class="flex">
             <img src="./src/images/3.png" alt="picture of wheat field">
-            <div class="flex columns space-between flex-start">
-                <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+            <div class="flex columns space-between flex-start a3">
+                <h2>A3 Duis aute irure dolor in henderit in voluptate.</h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
                     doconsequat,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <a href="#">Continue Reading</a>
+                <a href="#" onclick="openModal(event,'a3')">Continue Reading</a>
             </div>
         </article>
 
@@ -120,10 +120,13 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal-content flex justify-content-center align-center"></div>
+    </div>
+    <script src="./src/js/main-controller.js"></script>
 </body>
 
-<script>
-    const toggleMenu = () => document.querySelector('body').classList.toggle('menu-open');
-</script>
 
 </html>
