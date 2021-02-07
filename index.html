@@ -15,12 +15,24 @@
     <div class="main-screen" onclick="toggleMenu()"></div>
 
     <header>
-        <div class="header-container flex space-between align-center">
+        <div class="container flex space-between align-center">
             <div class="logo">
                 Blogin<span>.</span>
             </div>
             <ul class="main-nav flex clean-list">
-                <li class="flex align-center justify-content-center active">Journal</li>
+                <li class="flex align-center justify-content-center active dropdown-li">Journal
+                    <ul class="dropdown-content clean-list flex columns align-center justify-content-center">
+                        <li>
+                            <div>Link 1</div>
+                        </li>
+                        <li>
+                            <div>Link 2</div>
+                        </li>
+                        <li>
+                            <div>Link 3</div>
+                        </li>
+                    </ul>
+                </li>
                 <li class="flex align-center justify-content-center">About</li>
                 <li class="flex align-center justify-content-center">Work</li>
                 <li class="flex align-center justify-content-center">Contact</li>
@@ -29,7 +41,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="container">
         <article class="flex">
             <img src="./src/images/1.png" alt="picture of rails">
             <div class="flex columns space-between flex-start">
@@ -69,7 +81,7 @@
 
         <section>
             <!-- arrows -->
-            <div class="arrows">
+            <div class="container arrows">
                 <div class="arrows-container  flex space-between align-center">
                     <a href="#" class="flex align-center space-around">
                         <img src="./src/images/arrow-left.png" alt="arrow left">
@@ -84,7 +96,7 @@
         </section>
     </main>
     <footer>
-        <div class="wrapper flex columns align-center">
+        <div class="container flex columns align-center">
             <div class="logo">Blogin<span>.</span></div>
             <div class="copyrights">
                 © 2014 Blogin.com - All Rights Reserved - Find more free Templates at
@@ -92,14 +104,19 @@
             </div>
             <div class="socials flex space-between">
 
-                <img src="./src/images/fb.png" alt="fb icon">
+                <div class="social-wrapper flex align-center">
+                    <embed src="./src/images/fb.svg" alt="fb icon">
+                </div>
+                <div class="social-wrapper flex align-center">
+                    <embed src="./src/images/twitter.svg" alt="fb icon">
+                </div>
+                <div class="social-wrapper flex align-center">
+                    <embed src="./src/images/behance.svg" alt="fb icon">
+                </div>
+                <div class="social-wrapper flex align-center">
+                    <embed src="./src/images/dribbble.svg" alt="fb icon">
+                </div>
 
-
-                <img src="./src/images/twitter.png" alt="twitter icon">
-
-                <img src="./src/images/be.png" alt="be icon">
-
-                <img src="./src/images/basketball.png" alt="bb icon">
             </div>
         </div>
     </footer>
