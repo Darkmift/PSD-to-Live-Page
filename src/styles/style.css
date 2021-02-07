@@ -183,6 +183,7 @@ main article div a:hover {
 
 main article div a:hover::after {
     content: '→';
+    top: 8px;
     position: absolute;
     right: .875em;
 }
